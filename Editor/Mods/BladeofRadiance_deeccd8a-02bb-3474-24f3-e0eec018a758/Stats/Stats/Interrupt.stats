@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89415faa-e3cc-414e-b508-9c239e319578" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArmorFaithful" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h17d7efc4ge609g04f6g10a8ge3ebcc61e6b7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c34ba53gf53bgc07fge74dgf638d2cad877" version="3" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll;OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and not IsMiss()" />
+        <field name="Cost" type="StringTableFieldDefinition" value="DivinePoint:1;ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('DivinePoint',1,0,false,false,context.Source)" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_HolyRebuke" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_SOURCE,ARMOR_FAITHFUL,100,1);ApplyStatus(PASSIVE_DIVINE_BLESSING,100,0);ApplyStatus(SELF,DIVINE_BLESSING,100,-1)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,DIVINE_BLESSING,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8dd4aa-683b-4879-9c95-f4be9e1871dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_RendBlasphemous" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and IsWeaponAttack() and not SpellId('Target_RendBlasphemous') and HasSanctifiedWeapon()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3d43de8g656dg88e3g3606g4a901b7d1a1c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c7b29afg0295gf40eg0664gf1659bd40e98" version="2" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,REND_BLASPHEMOUS_BONUS_ATTACK,100,1);ApplyStatus(PASSIVE_DIVINE_BLESSING,100,0);ApplyStatus(SELF,DIVINE_BLESSING,100,-1)" />
+        <field name="Cost" type="StringTableFieldDefinition" value="DivinePoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('DivinePoint',1,0,false,false,context.Source)" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged;OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExtraAttack" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="max(0,WisdomModifier)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34a22e3e-d3dc-4cf8-9958-6e13d48c1acd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ChainJudgement" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsKillingBlow() and not AnyEntityIsItem() and HasSanctifiedWeapon() and not SpellId('Target_DivineRetaliation')" />
+        <field name="Cost" type="StringTableFieldDefinition" value="DivinePoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('DivinePoint',1,0,false,false,context.Source)" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a6ff52dg2140gcf9dg60fcge952f10a8417" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c24a6f1g11b2gee35g523agef9fed98c902" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_NaturesWrath" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,WisdomModifier),Radiant)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(CHAIN_JUDGEMENT,100,1);ApplyStatus(PASSIVE_DIVINE_BLESSING,100,0);ApplyStatus(SELF,DIVINE_BLESSING,100,-1)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(WisdomModifier,Radiant)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RESTRAINED,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="491d2aa5-9e3f-4d61-b2b7-9ff98dc287eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DivineRetaliation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd018adcg302agd1c1gec90gb630dcd328fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5eb0b99gdaf1g8c1dg4c77g480a6e860e7c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Riposte" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasSanctifiedWeapon(context.Observer) and IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsMeleeAttack() and IsHit() and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and HasLastAttackTriggered()" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(SWAP,Target_DivineRetaliation,true,true,true);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_RIPOSTE,100,0);ApplyStatus(PASSIVE_DIVINE_BLESSING,100,0);ApplyStatus(SELF,DIVINE_BLESSING,100,-1)" />
+        <field name="Cost" type="StringTableFieldDefinition" value="DivinePoint:1;ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('DivinePoint',1,0,false,false,context.Source)" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="WisdomModifier" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + WisdomModifier, MainMeleeWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

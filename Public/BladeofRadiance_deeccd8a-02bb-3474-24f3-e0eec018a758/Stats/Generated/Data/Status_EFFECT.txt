@@ -1,0 +1,7 @@
+new entry "PASSIVE_DIVINE_BLESSING"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "PASSIVE_DARK_ONES_BLESSING"
+data "DisplayName" "h6351fefcg593egcedbg162agfe964460dfcb;1"
+data "StatusEffect" "61fe31f9-ae4b-4926-a033-e56ea67c7d92"
+

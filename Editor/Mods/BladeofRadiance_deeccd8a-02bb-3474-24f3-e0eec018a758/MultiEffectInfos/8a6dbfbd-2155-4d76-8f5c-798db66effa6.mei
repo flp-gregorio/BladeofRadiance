@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="8a6dbfbd-2155-4d76-8f5c-798db66effa6" OwnerUUID="2692214a-6614-4251-b1ec-092e4180bfb6" Name="SANCTIFIED_BLADE_ApplyEffect">
+  <EffectInfo UUID="66f508cd-686a-4765-a371-e26ebe2b618a" EffectResourceGuid="7945acf0-e51b-f85a-6edb-f4df9fd5976d" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="33eb834d-b45e-42e6-9438-2fb23886365d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3c91782ge5f9g1815g9cceg55985a3e09ff" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99ed51ecg5240g571bg020cgd6ab6321a001" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_250" />
+        <field name="UUID" type="IdTableFieldDefinition" value="391341cb-cd8f-44f6-9ec7-1f2c20193617" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11b60a04gd68eg78e7ga207ge519a91e06c9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h411e0fa1g11fbgfa6fge601g79aa2222e6c6" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="ActionResource" />
+        <field name="ParamMatch" type="FixedStringTableFieldDefinition" value="0:DivinePoint" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

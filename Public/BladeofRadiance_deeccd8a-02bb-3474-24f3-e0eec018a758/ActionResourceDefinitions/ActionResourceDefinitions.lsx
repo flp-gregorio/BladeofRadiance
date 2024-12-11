@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h6f90f483g45begd07fgb8f8g0d64b39746c2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdffa2951gc63fgcd7dg6b33gdbc420628d1d" version="2"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="DivinePoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="3ee7a79d-4c2c-4a7a-b89c-2fe004eda527"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

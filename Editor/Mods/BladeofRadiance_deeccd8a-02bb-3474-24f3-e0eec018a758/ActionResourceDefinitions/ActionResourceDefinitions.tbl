@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1f196a87-8d84-424d-badc-a3d11c5b8d23">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ee7a79d-4c2c-4a7a-b89c-2fe004eda527" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DivinePoint" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdffa2951gc63fgcd7dg6b33gdbc420628d1d" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f90f483g45begd07fgb8f8g0d64b39746c2" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

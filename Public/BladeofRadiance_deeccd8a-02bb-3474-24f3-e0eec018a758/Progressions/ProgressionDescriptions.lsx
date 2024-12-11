@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h99ed51ecg5240g571bg020cgd6ab6321a001" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha3c91782ge5f9g1815g9cceg55985a3e09ff" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="Type" type="FixedString" value="BladeRadiance"/>
+                    <attribute id="UUID" type="guid" value="33eb834d-b45e-42e6-9438-2fb23886365d"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h411e0fa1g11fbgfa6fge601g79aa2222e6c6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h11b60a04gd68eg78e7ga207ge519a91e06c9" version="1"/>
+                    <attribute id="ParamMatch" type="FixedString" value="0:DivinePoint"/>
+                    <attribute id="Type" type="FixedString" value="ActionResource"/>
+                    <attribute id="UUID" type="guid" value="391341cb-cd8f-44f6-9ec7-1f2c20193617"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcdeb7d9-604d-418e-b35e-41a9d8cc44eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="SanctifiedChampion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf86f8c8bg3911gd73eg851cgf2d92eeee1de" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b8b3892g668bg0079g3f28gd0428a64edfe" version="3" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Unarmed() and IsProficientWithEquippedWeapon() and not HasBludgeoningWeapon()" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, SANCTIFIEDWEAPON,100, -1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_GuardianOfFaith" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SANCTIFIEDWEAPON,100, -1)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Paladin_SacredWeapon_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Paladin_SacredWeapon_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;,,;d5be826c-163f-4cc3-b195-2101e32e3da2,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="747ac7e5-c52e-4e5a-be78-1f9de85b55ea" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b6e820ae-027d-43ff-9a11-8b278ffb9e56" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b071157-07d4-4aff-9fec-9aa7c57d203c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FJ_SpiritGuardians" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e43b8628-4f46-446d-aada-5a4391435bbe" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasSanctifiedWeapon()" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_FJ_SpiritGuardians_Necrotic;Shout_FJ_SpiritGuardians_Radiant" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0389002-0490-48bc-883e-fe2bfcc73cfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="FJ_SpiritGuardians_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="deb790a4-cff5-484d-b84d-408d7ea39b99" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FJ_SPIRIT_GUARDIANS_NECROTIC_AURA,100,10);ApplyStatus(FJ_COOLDOWN,100,-1)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasSanctifiedWeapon()" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_FJ_SpiritGuardians" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FJ_SPIRIT_GUARDIANS_NECROTIC_AURA,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0746f669-8197-4e20-84dc-24a9337a62eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="FJ_SpiritGuardians_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac4a91a1-d655-412c-bbaa-8288cb780a39" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FJ_SPIRIT_GUARDIANS_RADIANT_AURA,100,10);ApplyStatus(FJ_COOLDOWN,100,-1)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasSanctifiedWeapon()" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_FJ_SpiritGuardians" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FJ_SPIRIT_GUARDIANS_RADIANT_AURA,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Rogue"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
+                    <attribute id="UUID" type="guid" value="9201a760-7410-4f82-acc7-6b378e7f21a7"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="cc01ae4c-a6e6-4474-9c9e-c4da5d858542"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="e06798db-e5a5-4c81-8a43-959177f44436"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="15536535-458f-4624-9299-8aafccd9bf9e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);ActionResource(DivinePoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SanctifiedChampion;DivineBlessings;ArmorFaithful;DivineInspiration;RendBlasphemous;DivineBlessings_Heal"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="f1c659b4-d2b7-411f-b8df-93555a9c810a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ChainJudgement;DivineRetaliation;EruptingBlades"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="e715a9ff-46f2-4587-83dc-e8026c252ce6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SaintlyRevelations"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,Wisdom,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf)"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="114236c6-ce13-4f30-9197-463e593fe1bd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="BladeRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FinalJudgement;FinalJudgement_Toggle"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b942b315-4225-4d7f-a034-70c292883e12"/>
+                    <attribute id="UUID" type="guid" value="e241903f-ce41-4b5e-8834-139619858284"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

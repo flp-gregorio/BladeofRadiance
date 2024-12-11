@@ -1,0 +1,39 @@
+function WisdomModifierEqualsTo(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) == value)
+end
+
+function HasBludgeoningWeapon(entity)
+  -- Set default entity to context.Target if not provided
+  entity = entity or context.Target
+
+  -- Check the weapon in the main hand
+  local weaponInHand = GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, entity)
+  if weaponInHand and weaponInHand.IsValid then
+    if Tagged("WPN_STAVE", weaponInHand).Result or
+       Tagged("WPN_WARHAMMER", weaponInHand).Result or
+       Tagged("WPN_MAUL", weaponInHand).Result or
+       Tagged("WPN_CLUB", weaponInHand).Result or
+       Tagged("WPN_GREATCLUB", weaponInHand).Result or
+       Tagged("WPN_MACE", weaponInHand).Result or
+       Tagged("WPN_LIGHT_HAMMER", weaponInHand).Result then
+      return ConditionResult(true)
+    end
+  end
+
+  -- If no bludgeoning weapon is found in the main hand, return false
+  return ConditionResult(false)
+end
+
+function IsDivinePoint()
+    return HasUseCosts('DivinePoint')
+end
+
+function HasSanctifiedWeapon(entity, mainHand)
+    local entity = entity or context.Source
+    local weaponEntity = GetActiveWeapon(entity, true)
+    if weaponEntity.IsValid then
+        result = Character(entity) & HasStatus('SANCTIFIEDWEAPON', weaponEntity)
+        return ConditionResult(result.Result, {ConditionError("HasNotSanctifiedWeapon")}, {ConditionError("HasSanctifiedWeapon")})
+    end
+    return ConditionResult(false, {ConditionError("HasNotSanctifiedWeapon")}, {ConditionError("HasSanctifiedWeapon")})
+end

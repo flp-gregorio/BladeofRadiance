@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9201a760-7410-4f82-acc7-6b378e7f21a7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Rogue" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="cc01ae4c-a6e6-4474-9c9e-c4da5d858542" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_89" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e06798db-e5a5-4c81-8a43-959177f44436" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_88" />
+        <field name="UUID" type="IdTableFieldDefinition" value="15536535-458f-4624-9299-8aafccd9bf9e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f1c659b4-d2b7-411f-b8df-93555a9c810a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SanctifiedChampion;DivineBlessings;ArmorFaithful;DivineInspiration;RendBlasphemous;DivineBlessings_Heal" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);ActionResource(DivinePoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_175" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e715a9ff-46f2-4587-83dc-e8026c252ce6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ChainJudgement;DivineRetaliation;EruptingBlades" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_299" />
+        <field name="UUID" type="IdTableFieldDefinition" value="114236c6-ce13-4f30-9197-463e593fe1bd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SaintlyRevelations" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,Wisdom,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e241903f-ce41-4b5e-8834-139619858284" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b942b315-4225-4d7f-a034-70c292883e12" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BladeRadiance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="17" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FinalJudgement;FinalJudgement_Toggle" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
